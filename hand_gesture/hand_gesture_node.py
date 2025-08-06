@@ -50,7 +50,7 @@ class HandGestureNode(Node):
         result = self.hands.process(image_rgb)
 
         if result.multi_hand_landmarks:
-            for hand_landmarks in result.multi_hand_landmarks:
+            for hand_landmarks in result.multi_hand_landmarks[0]:
                 self.mp_drawing.draw_landmarks(image, hand_landmarks, self.mp_hands.HAND_CONNECTIONS)
                 thumb_tip = hand_landmarks.landmark[self.mp_hands.HandLandmark.THUMB_TIP]
                 thumb_ip = hand_landmarks.landmark[self.mp_hands.HandLandmark.THUMB_IP]
