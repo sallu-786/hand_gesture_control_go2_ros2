@@ -9,7 +9,7 @@ A ROS2 Python package to control the **Unitree Go2 robot** using **real-time han
 - 🤚 Hand gesture recognition with **MediaPipe**
 - 🐾 Real-time control of Unitree Go2 robot using **Python SDK**
 - ⚙️ ROS2 integration for flexible deployment
-- 🛠️ Developer-friendly symlink and launch file support
+- 🛠️ Developer-friendly launch file support
 
 ---
 
