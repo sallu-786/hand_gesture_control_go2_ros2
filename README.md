@@ -31,7 +31,7 @@ visit [Official SDK](https://github.com/unitreerobotics/unitree_sdk2_python.git)
 Install required Python packages:
 
 ```bash
-pip3 install opencv-python numpy cyclonedds==0.10.2 rich-click mediapipe
+pip3 install opencv-python cyclonedds==0.10.2 rich-click mediapipe
 ```
 
 ---
