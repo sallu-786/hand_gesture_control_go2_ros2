@@ -48,7 +48,7 @@ cd ~/ros2_ws
 
 ```bash
 cd ~/ros2_ws/src
-git clone https://github.com/sallu-786/hand_gesture_go2_ros2.git
+git clone https://github.com/sallu-786/hand_gesture_control_go2_ros2.git
 ```
 
 ---
