@@ -107,13 +107,13 @@ source ~/.bashrc
 
 ---
 
-## 📄 License & Acknowledgements
+## 📄 Acknowledgements
 
 This project uses the following libraries and frameworks:
 
 - [unitree_sdk2_python](https://github.com/unitreerobotics/unitree_sdk2_python)
 - [MediaPipe](https://github.com/google/mediapipe)
-- ROS2 (**Humble** / **Foxy**)
+- ROS2 [Humble](https://docs.ros.org/en/humble/index.html) / [Foxy](https://docs.ros.org/en/foxy/index.html)(Tested on both)
 - [h-naderi's python_sdk implmentation](https://github.com/h-naderi/hand_gesture_unitree/tree/master)
 
 ---
