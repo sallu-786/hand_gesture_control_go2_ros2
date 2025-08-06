@@ -117,4 +117,3 @@ This project uses the following libraries and frameworks:
 
 ---
 
-Built with 💡 and 🤖 to make robots more intuitive to control.
