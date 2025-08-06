@@ -14,6 +14,7 @@ class HandGestureNode(Node):
     def __init__(self):
         super().__init__('hand_gesture_node')
 
+        ChannelFactoryInitialize(0)
         self.robot_state = unitree_go_msg_dds__SportModeState_()
         self.test = SportClient()
         self.test.SetTimeout(10.0)
@@ -24,7 +25,6 @@ class HandGestureNode(Node):
         self.mp_drawing = mp.solutions.drawing_utils
 
         # Init DDS and subscriber
-        ChannelFactoryInitialize(0)
         self.sub = ChannelSubscriber("rt/sportmodestate", SportModeState_)
         self.sub.Init(self.HighStateHandler, 10)
         time.sleep(1)
