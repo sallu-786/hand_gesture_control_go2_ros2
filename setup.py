@@ -23,6 +23,8 @@ setup(
     entry_points={
         'console_scripts': [
             'hand_gesture_node = hand_gesture.hand_gesture_node:main',   #get code for hand gesture detection from "hand_gesture_node.py" inside "hand_gesture" package 
+            'hand_gesture_demo_node = hand_gesture.hand_gesture_demo_node:main', 
+            
         ],
     },
 )
