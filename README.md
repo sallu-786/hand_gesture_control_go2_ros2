@@ -24,6 +24,9 @@ git clone https://github.com/unitreerobotics/unitree_sdk2_python.git
 cd unitree_sdk2_python
 pip3 install -e .  # visit ![Official SDK](https://github.com/unitreerobotics/unitree_sdk2_python.git)  if facing error
 ```
+# visit ![Official SDK](https://github.com/unitreerobotics/unitree_sdk2_python.git)  if facing error
+
+
 
 Install required Python packages:
 
