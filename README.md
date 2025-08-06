@@ -22,7 +22,7 @@ cd ~
 sudo apt install python3-pip
 git clone https://github.com/unitreerobotics/unitree_sdk2_python.git
 cd unitree_sdk2_python
-pip3 install -e .  # Ignore errors if any; manual install is optional
+pip3 install -e .  # visit pyton_sdk2_python github page if facing error
 ```
 
 Install required Python packages:
