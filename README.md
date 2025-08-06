@@ -72,7 +72,7 @@ source install/setup.bash
 
 ```bash
 ros2 run hand_gesture hand_gesture_demo_node   #run for webcam
-ros2 run hand_gesture hand_gesture_node        #run for Go2
+ros2 run hand_gesture hand_gesture_node        #run for Go2 camera
 ```
 
 ---
@@ -81,7 +81,7 @@ ros2 run hand_gesture hand_gesture_node        #run for Go2
 
 ```bash
 ros2 launch hand_gesture hand_gesture_demo_launch.py    # run for webcam
-ros2 launch hand_gesture hand_gesture_launch.py         #run for Go2
+ros2 launch hand_gesture hand_gesture_launch.py         #run for Go2 camera
 ```
 
 ---
