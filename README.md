@@ -114,6 +114,7 @@ This project uses the following libraries and frameworks:
 - [unitree_sdk2_python](https://github.com/unitreerobotics/unitree_sdk2_python)
 - [MediaPipe](https://github.com/google/mediapipe)
 - ROS2 (**Humble** / **Foxy**)
+- [h-naderi's python_sdk implmentation](https://github.com/h-naderi/hand_gesture_unitree/tree/master)
 
 ---
 
